@@ -1,11 +1,6 @@
 🚀 Starling Montero — Portfolio
 
-
-
-
-
-
-
+<img width="1092" height="745" alt="image" src="https://github.com/user-attachments/assets/2d0627a1-5002-4030-a0b0-a61206c2e235" />
 
 👋 Sobre mí
 
