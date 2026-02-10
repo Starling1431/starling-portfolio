@@ -1,99 +1,99 @@
-![Unicorn Sparkle](./assets/unicorn-sparkle.png)
+🚀 Starling Montero — Portfolio
 
-[![Lighthouse Performance Badge](./performance/lighthouse_performance.svg)](https://pagespeed.web.dev/analysis/https-unicorn-sparkle-web-app/cnpanzebex?form_factor=desktop)
-[![Lighthouse Accessibility Badge](./performance/lighthouse_accessibility.svg)](https://pagespeed.web.dev/analysis/https-unicorn-sparkle-web-app/cnpanzebex?form_factor=desktop)
-[![Lighthouse Best Practices Badge](./performance/lighthouse_best-practices.svg)](https://pagespeed.web.dev/analysis/https-unicorn-sparkle-web-app/cnpanzebex?form_factor=desktop)
-[![Lighthouse SEO Badge](./performance/lighthouse_seo.svg)](https://pagespeed.web.dev/analysis/https-unicorn-sparkle-web-app/cnpanzebex?form_factor=desktop)
 
-# 🦄 Unicorn Sparkle
 
-**Unicorn Sparkle** es la plantilla de portafolio definitiva para desarrolladores que quieren brillar. Combina diseño moderno y funcionalidad mágica para mostrar tus proyectos y habilidades. ¡Destaca con estilo y haz que tu portafolio sea inolvidable!
 
-[![Diseño de Unicorn Sparkle](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/RPSa9nHARMmnTemhrGuTCZ/Portafolio-dev?node-id=44-1034&t=dIZVva7mcSSduV6j-1)
-[![Sitio web de Unicorn Sparkle](https://img.shields.io/website?url=https%3A%2F%2Funicorn-sparkle.web.app&style=for-the-badge)](https://unicorn-sparkle.web.app)
 
-## 👀 Características
 
-- 🚀 Última versión de Astro.
-- ✅ ESLint y Prettier configurados.
-- 🌐 Túneles listos.
-- 🌎 Internacionalización lista (i18n).
-- ⚡ Enfoque en el rendimiento.
-- ⚙️ Enfoque SEO.
-- 🖼️ Procesamiento de imágenes.
-- ✨ Compatibilidad con iconos SVG.
-- 🪄 Transiciones de vista entre documentos ([referencia](https://developer.chrome.com/docs/web-platform/view-transitions/cross-document)).
 
-> [!NOTE]
-> Unicorn Sparkle fue generado con [astro-templates](https://github.com/felixicaza/astro-templates).
 
-## 🤔 ¿Cómo usar?
+👋 Sobre mí
 
-Para utilizar la plantilla **Unicorn Sparkle** puedes copiar y ejecutar el siguiente comando en tu terminal:
+Soy Starling Montero, Desarrollador Web Frontend de Santo Domingo, República Dominicana 🇩🇴
 
-Con NPM:
+Especialista en:
 
-```bash
-npm create astro@latest -- --template UXCorpRangel/portfolios-dev/unicorn-sparkle
-```
+HTML5
 
-Con PNPM:
+CSS3
 
-```bash
-pnpm create astro@latest -- --template UXCorpRangel/portfolios-dev/unicorn-sparkle
-```
+JavaScript ES6+
 
-Luego entra en la carpeta de tu portafolio, instala las dependencias y ¡listo! 🎉.
+Node.js
 
-## 🛠️ Estructura del proyecto
+React
 
-- [public/favicons/](./public/favicons/): Contiene los archivos de favicon utilizados en la aplicación.
+Diseño UI moderno
 
-- [public/media/](./public/media/): Almacena archivos de medios como videos que son utilizados en la aplicación.
+Optimización de rendimiento web
 
-- [public/og/](./public/og/): Esta carpeta almacena las imágenes Open Graph que son utilizadas para previsualizaciones cuando la página es compartida en redes sociales.
+Este portafolio muestra mis proyectos, experiencia laboral y habilidades técnicas con un enfoque en rendimiento, accesibilidad y buenas prácticas.
 
-- [src/components/](./src/components/): Contiene los componentes reutilizables que pueden ser usados en diferentes partes de la aplicación.
+🌟 Características del portafolio
 
-- [src/data/](./src/data/): Esta carpeta almacena los datos estáticos o archivos que contienen la información que la aplicación necesita.
+⚡ Desarrollado con Astro
 
-- [src/icons/](./src/icons/): Incluye los íconos utilizados en la aplicación.
+🌍 Internacionalización (Español / Inglés)
 
-- [src/images/](./src/images/): Contiene todas las imágenes que son utilizadas en la aplicación, ya sean para fondos, gráficos u otros elementos visuales.
+🚀 Optimizado para rendimiento (Lighthouse)
 
-- [src/layouts/](./src/layouts/): Almacena los componentes de disposición general de la aplicación, como estructuras de páginas completas para a mantener una consistencia visual en diferentes páginas.
+🔍 SEO optimizado
 
-- [src/locales/](./src/locales/): Carpeta destinada a los archivos de localización o internacionalización.
+🖼️ Optimización automática de imágenes
 
-- [src/pages/](./src/pages/): Contiene las secciones principales de cada página de la aplicación. Por ejemplo, [\_home](./src/pages/_home/) contiene las secciones de la página de inicio.
+🎨 Diseño moderno y adaptable
 
-- [src/routes/](./src/routes/): En esta carpeta se gestionan las rutas de la aplicación.
+✨ Animaciones suaves
 
-- [src/scripts/](./src/scripts/): Contiene los scripts adicionales necesarios para la funcionalidad del proyecto. Estos scripts pueden incluir utilidades, funciones auxiliares o cualquier lógica que no esté directamente relacionada con la UI.
+🧩 Componentes reutilizables
 
-- [src/styles/](./src/styles/): Almacena los archivos de estilos que definen la apariencia visual de la aplicación. Aquí se definen colores, tipografías, márgenes, entre otros elementos visuales.
+📱 Totalmente responsive
 
-## 📦 Dependencias
+🛠️ Tecnologías utilizadas
 
-Descubre las principales integraciones de Astro utilizadas en este proyecto:
+Astro
 
-- [@astrolicious/i18n](https://www.npmjs.com/package/@astrolicious/i18n): Es una solución de internacionalización para proyectos Astro. Facilita la creación de sitios multilingües, permitiendo gestionar múltiples idiomas y traducir contenido.
+TypeScript
 
-- [@playform/compress](https://www.npmjs.com/package/@playform/compress): Es una herramienta que se enfoca en la compresión de activos, como imágenes, scripts y estilos, durante el proceso de construcción.
+React
 
-- [astro-compressor](https://www.npmjs.com/package/astro-compressor): Es una integración que se encarga de comprimir los archivos a Brotli y Gzip durante el proceso de build.
+TailwindCSS
 
-- [astro-icon](https://www.npmjs.com/package/astro-icon): Es una integración que facilita la gestión e inserción de íconos SVG en tu proyecto de Astro.
+i18n
 
-- [astro-seo-schema](https://www.npmjs.com/package/astro-seo-schema): es una integración que genera automáticamente datos estructurados de esquema ([schema.org](https://schema.org/)) para tu sitio web de Astro.
+SVG Icons
 
-- [astro-sitemap](https://www.npmjs.com/package/astro-sitemap): Genera automáticamente un sitemap XML para tu sitio web de Astro.
+Optimización de assets
 
-- [astro-tunnel](https://www.npmjs.com/package/astro-tunnel): Permite exponer localmente tu proyecto de Astro a través de una URL pública.
+📂 Estructura del proyecto
+Carpeta	Función
+public/	Recursos públicos como favicons y media
+src/components/	Componentes reutilizables
+src/data/	Datos del portafolio
+src/icons/	Iconos SVG
+src/images/	Imágenes del sitio
+src/layouts/	Layouts globales
+src/locales/	Traducciones
+src/pages/	Secciones de las páginas
+src/routes/	Rutas dinámicas
+src/scripts/	Scripts auxiliares
+src/styles/	Estilos globales
+📈 Objetivo de este portafolio
 
-- [sanitize.css](https://www.npmjs.com/package/sanitize.css): Es una hoja de estilos que ofrece un reinicio (reset) y una normalización de los estilos CSS por defecto en los navegadores. Garantiza una apariencia más consistente entre distintos navegadores, eliminando las diferencias en estilos por defecto, lo que permite un desarrollo más predecible y coherente de la UI.
+Este sitio fue creado para:
 
----
+Mostrar mi experiencia profesional
 
-Diseñado con ❤️ por [Ana Rangel](https://www.linkedin.com/in/ux-ana-rangel) y desarrollado con 💙 por [Felix Icaza](https://felixicaza.com).
-# starling-portfolio
+Destacar mis proyectos
+
+Reflejar mi estilo de diseño
+
+Servir como punto de contacto profesional
+
+🤝 Créditos
+
+Diseñado con ❤️ por Ana Rangel
+
+Desarrollado con 💙 por Felix Icaza
+
+Utilizando de base la plantilla Unicorn Sparkle
