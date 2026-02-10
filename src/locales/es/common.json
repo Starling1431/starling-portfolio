@@ -1,0 +1,139 @@
+{
+  "title": "Starling Montero - Desarrollador Web Frontend",
+  "description": "Desarrollador Web Frontend de Santo Domingo, Republica Dominicana. Especialista en HTML5, CSS5, JavaScript ES6+, Node.js y React Native.",
+  "navbar": [
+    {
+      "label": "Inicio",
+      "href": "#top"
+    },
+    {
+      "label": "Experiencia",
+      "href": "#experiencia-laboral"
+    },
+    {
+      "label": "Proyectos",
+      "href": "#proyectos"
+    },
+    {
+      "label": "Sobre mí",
+      "href": "#sobre-mi"
+    }
+  ],
+  "hero": {
+    "job_availability": "¡Disponible para trabajar!",
+    "title": "¡Hola soy Starling Montero!",
+    "job_title": "<strong>Desarrollador Web Frontend</strong> de Santo Domingo, Republica Dominciana.",
+    "description": "Especialista en HTML5, CSS5, JavaScript ES6+, Node.js Y React Native.",
+    "cta": "Contactame"
+  },
+  "experience": {
+    "title": "Experiencia laboral",
+    "jobs": {
+      "jobs_title": ["Brackix", "Freelance Aspirante"],
+      "jobs_description": [
+        {
+          "title": "Desarrollador Web Frontend",
+          "time": ["Dic 2021"],
+          "description": "Creo sitios web con diseños modernos y sostenibles. Me adapto facilmente a las necesidades de cada proyecto, resultandome sencillo debido a mi experiencia en el diseño y arte.",
+          "list": ["Diseño de sitios web", "Optimización de sitios web"]
+        },
+        {
+          "title": "Desarrollador de Programas de escritorio",
+          "time": ["Nov 2020", "Oct 2021"],
+          "description": "Aqui empece a desarrollar programas de escritorio con Unity, Visual Studio 2022, GODOT y MySQL, lo que me convirtió en un Aspirante apasionado y altamente cualificado para cualquier proyecto de desarrollo web.",
+           "list": ["Desarrollo de programas de escritorio", "Optimización de programas de escritorio"]
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "projects": [
+      {
+        "title": "Estelí Buses",
+        "description": "La primer plataforma para conocer los horarios de las terminales de autobuses interlocales del municipio de Estelí, Nicaragua.",
+        "image": "/src/images/projects/esteli-buses-project.jpg",
+        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
+        "code": "Código",
+        "preview": "Vista previa"
+      },
+      {
+        "title": "Portafolio UX Ana Rangel",
+        "description": "Lorem ipsum dolor sit amet consectetur. Faucibus quis sociis at sagittis egestas sed volutpat. Arcu pellentesque elit volutpat quam. Id dictum sagittis hendrerit diam viverra velit. Blandit id viverra quis lectus faucibus egestas ipsum turpis.",
+        "image": "/src/images/projects/ana-rangel-portafolio.jpg",
+        "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
+        "code": "Código",
+        "preview": "Vista previa"
+      },
+      {
+        "title": "Calculadora Payoneer Nicaragua",
+        "description": "Descubre una herramienta esencial para freelancers y negocios en Nicaragua. Nuestra Calculadora Payoneer Nicaragua te permite calcular de manera precisa y rápida las tarifas y comisiones al recibir pagos internacionales a través de Payoneer. ¡Empieza a usarla hoy y toma el control de tus finanzas!",
+        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
+        "techs": [
+          "Astro",
+          "TailwindCSS",
+          "React",
+          "TypeScript",
+          "PWA",
+          "Firebase"
+        ],
+        "code": "Código",
+        "preview": "Vista previa"
+      }
+    ]
+  },
+  "contributions": {
+    "title": "Contribuciones",
+    "contributions": [
+      {
+        "src": "/src/images/contributions/advanced-periodontics.jpg",
+        "alt": "Advanced Periodontics",
+        "title": "Advanced Periodontics",
+        "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
+        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
+        "repo": "#",
+        "repo_label": "Repositorio",
+        "commits": "#"
+      },
+      {
+        "src": "/src/images/contributions/advanced-periodontics.jpg",
+        "alt": "Advanced Periodontics",
+        "title": "Advanced Periodontics",
+        "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
+        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
+        "repo": "#",
+        "repo_label": "Repositorio",
+        "commits": "#"
+      },
+      {
+        "src": "/src/images/contributions/advanced-periodontics.jpg",
+        "alt": "Advanced Periodontics",
+        "title": "Advanced Periodontics",
+        "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
+        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
+        "repo": "#",
+        "repo_label": "Repositorio",
+        "commits": "#"
+      }
+    ]
+  },
+ "about": {
+  "title": "Sobre mí",
+    "subtitle": "Soy Integrante de <a href='https://brackix.com' target='_blank' style='color: #f97316; text-decoration: underline; font-weight: 600;' onmouseover=\"this.style.color='#fb923c'; this.style.textDecoration='none';\" onmouseout=\"this.style.color='#f97316'; this.style.textDecoration='underline';\">Brackix</a> por parte del Frontend, Acompañandolos desde su creaciòn",
+  "description": "Soy un Desarrollador Web Frontend con más de 2 años de experiencia, especializado en crear diseños modernos y optimizar el rendimiento web, con un enfoque en tecnologías como HTML 5, CSS 3, JavaScript. Manejo frameworks como React Native y un poco de Angular, Next y Vite, y he manejado tambien con software de escritorio como Unity, Visual Studio 2022, GODOT y MySQL, lo que me convierte en un Aspirante apasionado y altamente cualificado para cualquier proyecto de desarrollo web."
+},
+  "contact": {
+    "title": "¿Listo para dar vida a tus ideas?",
+    "subtitle": "Puedo impulsar tu proyecto o formar parte de tu equipo"
+  },
+  "footer": {
+    "designed": {
+      "designed_with": "Diseñado con",
+      "designed_by": "por"
+    },
+    "developed": {
+      "developed_with": "Hecho con",
+      "developed_by": "por"
+    }
+  }
+}
