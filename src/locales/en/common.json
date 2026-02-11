@@ -1,6 +1,6 @@
 {
-  "title": "Web Frontend Developer - Felix Rangel",
-  "description": "Web Frontend Developer from Esteli, Nicaragua. Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and WordPress.",
+  "title": "Starling Montero - Frontend Web Developer",
+  "description": "Frontend Web Developer from Santo Domingo, Dominican Republic. Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and React Native.",
   "navbar": [
     {
       "label": "Home",
@@ -8,40 +8,40 @@
     },
     {
       "label": "Experience",
-      "href": "/en/#work-experience"
+      "href": "#work-experience"
     },
     {
       "label": "Projects",
-      "href": "/en/#projects"
+      "href": "#projects"
     },
     {
       "label": "About me",
-      "href": "/en/#about-me"
+      "href": "#about-me"
     }
   ],
   "hero": {
     "job_availability": "Available for work!",
-    "title": "Hello I'm Felix Rangel!",
-    "job_title": "<strong>Web Frontend Developer</strong> from Esteli, Nicaragua.",
-    "description": "Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and WordPress.",
+    "title": "Hello, I'm Starling Montero!",
+    "job_title": "<strong>Frontend Developer</strong> from Santo Domingo, Dominican Republic.",
+    "description": "Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and React Native, C#, Unity, Visual Studio 2022 and MySQL.",
     "cta": "Contact me"
   },
   "experience": {
     "title": "Work Experience",
     "jobs": {
-      "jobs_title": ["Freelance", "HD Media Nicaragua"],
+      "jobs_title": ["Brackix", "Aspiring Freelancer"],
       "jobs_description": [
         {
-          "title": "Web Frontend Developer",
-          "time": ["Dec 2021"],
-          "description": "I create modern websites with good UI/UX practices. I also manage SEO, security and performance optimizations to increase conversion and visits.",
-          "list": ["Design of websites", "Optimization of websites"]
+          "title": "Frontend Web Developer",
+          "time": ["2025"],
+          "description": "I create websites with modern and sustainable designs. I easily adapt to the needs of each project, which is simple for me due to my experience in design and art.",
+          "list": ["Website design", "Website optimization"]
         },
         {
-          "title": "WordPress Web Developer",
-          "time": ["Nov 2020", "Oct 2021"],
-          "description": "I was in charge of developing WordPress websites for clients in Nicaragua, during my time at the agency I contributed my knowledge in web security by increasing measures and decreasing security gaps in WordPress, configuring plugins and setting HTTP headers such as Content-Security-Policy (CSP), Cross-Origin-Resource-Policy (CORP), Cross-Origin-Opener-Policy (COOP), etc.",
-          "list": ["Design of websites", "Optimization of websites"]
+          "title": "Desktop Application Developer",
+          "time": ["2023", "2024"],
+          "description": "Here I started developing desktop applications with Unity, Visual Studio 2022, GODOT and MySQL, which made me a passionate and highly qualified aspiring developer for any web development project.",
+          "list": ["Desktop application development", "Desktop application optimization"]
         }
       ]
     }
@@ -51,14 +51,14 @@
     "projects": [
       {
         "title": "Estelí Buses",
-        "description": "The first platform to know the bus schedules of interlocal buses in the Estelí municipality, Nicaragua.",
+        "description": "The first platform to know the schedules of interlocal bus terminals in the municipality of Estelí, Nicaragua.",
         "image": "/src/images/projects/esteli-buses-project.jpg",
         "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
         "code": "Code",
         "preview": "Preview"
       },
       {
-        "title": "Portafolio UX Ana Rangel",
+        "title": "UX Portfolio Ana Rangel",
         "description": "Lorem ipsum dolor sit amet consectetur. Faucibus quis sociis at sagittis egestas sed volutpat. Arcu pellentesque elit volutpat quam. Id dictum sagittis hendrerit diam viverra velit. Blandit id viverra quis lectus faucibus egestas ipsum turpis.",
         "image": "/src/images/projects/ana-rangel-portafolio.jpg",
         "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
@@ -66,8 +66,8 @@
         "preview": "Preview"
       },
       {
-        "title": "Calculadora Payoneer Nicaragua",
-        "description": "Discover an essential tool for freelancers and businesses in Nicaragua. Our Calculadora Payoneer Nicaragua allows you to calculate precisely and quickly the rates and commissions when receiving international payments through Payoneer. Start using it today and take control of your finances!",
+        "title": "Payoneer Nicaragua Calculator",
+        "description": "Discover an essential tool for freelancers and businesses in Nicaragua. Our Payoneer Nicaragua Calculator allows you to accurately and quickly calculate fees and commissions when receiving international payments through Payoneer. Start using it today and take control of your finances!",
         "image": "/src/images/projects/calculadora-payoneer-project.jpg",
         "techs": [
           "Astro",
@@ -89,7 +89,7 @@
         "src": "/src/images/contributions/advanced-periodontics.jpg",
         "alt": "Advanced Periodontics",
         "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
+        "description": "Together with an agency specialized in marketing in the state of Texas, United States. I collaborated in the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
         "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
         "repo": "#",
         "repo_label": "Repository",
@@ -99,7 +99,7 @@
         "src": "/src/images/contributions/advanced-periodontics.jpg",
         "alt": "Advanced Periodontics",
         "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
+        "description": "Together with an agency specialized in marketing in the state of Texas, United States. I collaborated in the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
         "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
         "repo": "#",
         "repo_label": "Repository",
@@ -109,7 +109,7 @@
         "src": "/src/images/contributions/advanced-periodontics.jpg",
         "alt": "Advanced Periodontics",
         "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
+        "description": "Together with an agency specialized in marketing in the state of Texas, United States. I collaborated in the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
         "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
         "repo": "#",
         "repo_label": "Repository",
@@ -119,11 +119,11 @@
   },
   "about": {
     "title": "About me",
-    "subtitle": "I'm a Midudev and ManzDev mod but I'm happier being an AnaRangel mod",
-    "description": "I am a Frontend Web Developer and WordPress Developer with over 3 years of experience, specialized in creating modern designs and optimizing web performance, with a focus on technologies such as HTML 5, CSS 3, JavaScript ES6+ and WordPress. I handle frameworks such as React and Astro, and I am an expert in WordPress visual builders, in addition to having a strong technical knowledge in Core Web Vitals, which makes me a passionate and highly qualified professional for any web development project."
+    "subtitle": "I'm a member of <a href='https://brackix.com' target='_blank' style='color: #f97316; text-decoration: underline; font-weight: 600;' onmouseover=\"this.style.color='#fb923c'; this.style.textDecoration='none';\" onmouseout=\"this.style.color='#f97316'; this.style.textDecoration='underline';\">Brackix</a> on the Frontend team, accompanying them since its creation",
+    "description": "I'm a Frontend Web Developer with over 2 years of experience, specialized in creating modern designs and optimizing web performance, with a focus on technologies such as HTML 5, CSS 3, JavaScript. I handle frameworks like React Native and a bit of Angular, Next and Vite, and I've also worked with desktop software like Unity, Visual Studio 2022, GODOT and MySQL, which makes me a passionate and highly qualified aspiring developer for any web development project."
   },
   "contact": {
-    "title": "Ready to make your dreams come true?",
+    "title": "Ready to bring your ideas to life?",
     "subtitle": "I can boost your project or be part of your team"
   },
   "footer": {

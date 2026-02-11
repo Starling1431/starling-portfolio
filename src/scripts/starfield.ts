@@ -33,6 +33,7 @@ export class StarField {
   private readonly influenceRadius = 80 // Radio de influencia para el efecto de repelencia del mouse
   private canvasWidth: number
   private canvasHeight: number
+  private readonly borderRadius = 24 // Border radius del contenedor
 
   // Color de las estrellas (blanco por defecto)
   private starColor = '255, 255, 255'
@@ -95,10 +96,38 @@ export class StarField {
     }
   }
 
+  // Crear un path con bordes redondeados
+  private createRoundedRectPath(): void {
+    if (this.context !== null) {
+      const radius = this.borderRadius
+      const width = this.canvasWidth
+      const height = this.canvasHeight
+
+      this.context.beginPath()
+      this.context.moveTo(radius, 0)
+      this.context.lineTo(width - radius, 0)
+      this.context.arcTo(width, 0, width, radius, radius)
+      this.context.lineTo(width, height - radius)
+      this.context.arcTo(width, height, width - radius, height, radius)
+      this.context.lineTo(radius, height)
+      this.context.arcTo(0, height, 0, height - radius, radius)
+      this.context.lineTo(0, radius)
+      this.context.arcTo(0, 0, radius, 0, radius)
+      this.context.closePath()
+    }
+  }
+
   // Dibujar las estrellas y aplicar el efecto de repelencia basado en la posición del mouse
   private drawStars(): void {
     if (this.context !== null) {
       this.context.clearRect(0, 0, this.canvasWidth, this.canvasHeight) // Limpiar el canvas
+
+      // Guardar el estado del contexto
+      this.context.save()
+      
+      // Crear y aplicar el clipping path con bordes redondeados
+      this.createRoundedRectPath()
+      this.context.clip()
     }
 
     this.stars.forEach((star) => {
@@ -133,6 +162,11 @@ export class StarField {
         this.context.fill()
       }
     })
+
+    // Restaurar el estado del contexto
+    if (this.context !== null) {
+      this.context.restore()
+    }
 
     // Continuar animación en el siguiente frame
     requestAnimationFrame(this.drawStars.bind(this))

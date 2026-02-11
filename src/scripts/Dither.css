@@ -1,0 +1,9 @@
+.dither-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;   /* ocupa toda la pantalla */
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1;       /* NEGATIVO: lo manda detrás de todo */
+}

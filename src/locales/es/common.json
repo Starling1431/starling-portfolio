@@ -22,8 +22,8 @@
   "hero": {
     "job_availability": "¡Disponible para trabajar!",
     "title": "¡Hola soy Starling Montero!",
-    "job_title": "<strong>Desarrollador Web Frontend</strong> de Santo Domingo, Republica Dominciana.",
-    "description": "Especialista en HTML5, CSS5, JavaScript ES6+, Node.js Y React Native.",
+    "job_title": "<strong>Desarrollador Frontend</strong> de Santo Domingo, Republica Dominciana.",
+    "description": "Especialista en HTML5, CSS5, JavaScript ES6+, Node.js Y React Native, C#, Unity, Visual Studio 2022 y MySQL.",
     "cta": "Contactame"
   },
   "experience": {
@@ -33,13 +33,13 @@
       "jobs_description": [
         {
           "title": "Desarrollador Web Frontend",
-          "time": ["Dic 2021"],
+          "time": ["2025"],
           "description": "Creo sitios web con diseños modernos y sostenibles. Me adapto facilmente a las necesidades de cada proyecto, resultandome sencillo debido a mi experiencia en el diseño y arte.",
           "list": ["Diseño de sitios web", "Optimización de sitios web"]
         },
         {
           "title": "Desarrollador de Programas de escritorio",
-          "time": ["Nov 2020", "Oct 2021"],
+          "time": ["2023", "2024"],
           "description": "Aqui empece a desarrollar programas de escritorio con Unity, Visual Studio 2022, GODOT y MySQL, lo que me convirtió en un Aspirante apasionado y altamente cualificado para cualquier proyecto de desarrollo web.",
            "list": ["Desarrollo de programas de escritorio", "Optimización de programas de escritorio"]
         }

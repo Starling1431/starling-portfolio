@@ -90,5 +90,4 @@ Servir como punto de contacto profesional
 Diseñado con ❤️ por Ana Rangel
 
 Desarrollado con 💙 por Felix Icaza
-
 Utilizando de base la plantilla Unicorn Sparkle

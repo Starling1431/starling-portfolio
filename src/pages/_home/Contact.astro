@@ -11,15 +11,15 @@ const { title, subtitle } = t('contact', {
 })
 ---
 
-<section class="contact">
+<section id="contact" class="contact">
   <h2 class="headline-1">{title}</h2>
   <h3 class="headline-2">{subtitle}</h3>
   <div class="buttons-container">
-    <Button class="filled" href="#">{cta}</Button>
-    <Button href="#">
-      <Icon name="linkedin" size={24} />
-      <span>LinkedIn</span>
-    </Button>
+    <Button class="filled" href="#top">{cta}</Button>
+    <Button href="https://www.linkedin.com/in/starling-montero-440669305">
+        <Icon name="linkedin" size={24} />
+        <span>LinkedIn</span>
+      </Button>
   </div>
   <canvas id="grid"></canvas>
 </section>
