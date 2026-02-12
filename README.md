@@ -9,7 +9,7 @@ Soy Starling Montero, Desarrollador Web Frontend de Santo Domingo, República Do
 Especialista en:
 
 HTML5
-
+lo jeralka
 CSS3
 
 JavaScript ES6+
