@@ -21,11 +21,17 @@ export default defineConfig({
   },
   compressHTML: false,
 
-  // ✅ AGREGADO: Configuración para i18n:astro
+  // ✅ CORREGIDO: Quitar el alias de i18n:astro
   vite: {
     resolve: {
       alias: {
-        'i18n:astro': '@astrolicious/i18n/runtime'
+        '@components': '/src/components',
+        '@data': '/src/data',
+        '@images': '/src/images',
+        '@layouts': '/src/layouts',
+        '@pages': '/src/pages',
+        '@scripts': '/src/scripts',
+        '@styles': '/src/styles'
       }
     }
   },
@@ -68,6 +74,8 @@ export default defineConfig({
         removeEmptyAttributes: true,
         removeOptionalTags: true,
         removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
         useShortDoctype: true
       },
       JavaScript: {
