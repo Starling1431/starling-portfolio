@@ -8,21 +8,25 @@ const { title, projects } = t('projects', {
 ---
 
 <section id={title.toLowerCase()} class="projects">
-  <h2>
+  <h2 data-aos="fade-up">
     <span>{title}</span>
   </h2>
   {
-    projects.map(({ title, description, image, techs, code, preview }) => (
-      <CardProject
-        src={image}
-        alt={title}
-        title={title}
-        description={description}
-        techs={techs}
-        code={code}
-        preview={preview}
-      />
-    ))
+    projects.map(
+      ({ title, description, image, techs, code, preview }, index) => (
+        <div data-aos="fade-up" data-aos-delay={100 + index * 150}>
+          <CardProject
+            src={image}
+            alt={title}
+            title={title}
+            description={description}
+            techs={techs}
+            code={code}
+            preview={preview}
+          />
+        </div>
+      )
+    )
   }
 </section>
 

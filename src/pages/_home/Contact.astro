@@ -12,14 +12,14 @@ const { title, subtitle } = t('contact', {
 ---
 
 <section id="contact" class="contact">
-  <h2 class="headline-1">{title}</h2>
-  <h3 class="headline-2">{subtitle}</h3>
-  <div class="buttons-container">
+  <h2 class="headline-1" data-aos="fade-up">{title}</h2>
+  <h3 class="headline-2" data-aos="fade-up" data-aos-delay="100">{subtitle}</h3>
+  <div class="buttons-container" data-aos="fade-up" data-aos-delay="200">
     <Button class="filled" href="#top">{cta}</Button>
     <Button href="https://www.linkedin.com/in/starling-montero-440669305">
-        <Icon name="linkedin" size={24} />
-        <span>LinkedIn</span>
-      </Button>
+      <Icon name="linkedin" size={24} />
+      <span>LinkedIn</span>
+    </Button>
   </div>
   <canvas id="grid"></canvas>
 </section>

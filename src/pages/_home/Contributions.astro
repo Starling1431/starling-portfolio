@@ -8,32 +8,37 @@ const { title, contributions } = t('contributions', {
 ---
 
 <section class="contributions">
-  <h2>
+  <h2 data-aos="fade-up">
     <span>{title}</span>
   </h2>
   <div class="card-contributions">
     {
       contributions.map(
-        ({
-          src,
-          alt,
-          title,
-          description,
-          techs,
-          repo,
-          repo_label: repoLabel,
-          commits
-        }) => (
-          <CardContributions
-            src={src}
-            alt={alt}
-            title={title}
-            description={description}
-            techs={techs}
-            repo={repo}
-            repoLabel={repoLabel}
-            commits={commits}
-          />
+        (
+          {
+            src,
+            alt,
+            title,
+            description,
+            techs,
+            repo,
+            repo_label: repoLabel,
+            commits
+          },
+          index
+        ) => (
+          <div data-aos="fade-up" data-aos-delay={index * 100}>
+            <CardContributions
+              src={src}
+              alt={alt}
+              title={title}
+              description={description}
+              techs={techs}
+              repo={repo}
+              repoLabel={repoLabel}
+              commits={commits}
+            />
+          </div>
         )
       )
     }

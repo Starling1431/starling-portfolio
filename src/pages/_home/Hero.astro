@@ -1,8 +1,8 @@
 ---
-import { Icon } from 'astro-icon/components'
+// import { Icon } from 'astro-icon/components'
 import { t } from 'i18n:astro'
-import Button from '@components/Button.astro'
 import ShapeBlur from 'src/scripts/ShapeBlur'
+import Button from '@components/Button.astro'
 
 const {
   job_availability: jobAvailability,
@@ -29,34 +29,38 @@ const {
       />
     </div>
     <div class="hero-content">
-      <div class="badge">
+      <div class="badge" data-aos="fade-down">
         <span class="dot"></span>
         <span>{jobAvailability}</span>
       </div>
-      <h1>{title}</h1>
-      <section>
+      <h1 data-aos="fade-up" data-aos-delay="100">{title}</h1>
+      <section data-aos="fade-up" data-aos-delay="200">
         <p set:html={jobTitle} />
         <p>{description}</p>
       </section>
-      <section class="button-container">
+      <section class="button-container" data-aos="fade-up" data-aos-delay="300">
         <Button class="filled" href="#contact">{cta}</Button>
       </section>
       <canvas id="stars"></canvas>
     </div>
   </div>
 </section>
+
 <style>
   .hero {
     padding-top: 113px;
     padding-bottom: 56px;
+
     @media (width >= 768px) {
       padding-block: 129px;
     }
   }
+
   .hero-wrapper {
     position: relative;
     margin-inline: auto;
   }
+
   .hero-content {
     position: relative;
     text-align: center;
@@ -65,9 +69,11 @@ const {
     overflow: hidden;
     z-index: 1;
     background-color: var(--bg-color);
+
     @media (width >= 992px) {
       padding: 148px 125px;
     }
+
     & canvas#stars {
       position: absolute;
       margin-left: 10px;
@@ -82,10 +88,12 @@ const {
       -webkit-mask-image: radial-gradient(white, white);
       border-radius: var(--radius);
     }
+
     /* Separador entre contenido */
     & > * + *:not(canvas) {
       margin-top: 24px;
     }
+
     & .badge {
       display: flex;
       align-items: center;
@@ -100,6 +108,7 @@ const {
       transition: var(--transition-bg), var(--transition-border);
       position: relative;
       z-index: 1;
+
       & .dot {
         --size: 6px;
         --color: #22c55e;
@@ -112,31 +121,38 @@ const {
         animation: pulse 2s infinite;
       }
     }
+
     & h1,
     & section {
       position: relative;
       z-index: 1;
     }
+
     & p {
       font-size: 1.25rem;
       color: var(--text-description-color);
+
       @media (width >= 768px) {
         font-size: 1.5rem;
       }
+
       > strong {
         color: var(--text-color);
       }
     }
+
     & .button-container {
       display: flex;
       justify-content: center;
       flex-direction: column;
       gap: 13px;
+
       @media (width >= 768px) {
         flex-direction: row;
       }
     }
   }
+
   #shape-blur-container {
     position: absolute;
     top: 0;
@@ -146,6 +162,7 @@ const {
     z-index: 100;
     pointer-events: none;
   }
+
   @keyframes pulse {
     0% {
       transform: scale(0.95);
@@ -161,9 +178,10 @@ const {
     }
   }
 </style>
+
 <script>
   import { StarField } from '@scripts/starfield'
 
   const canvas = document.querySelector('#stars') as HTMLCanvasElement
-  new StarField(canvas)   
-</script>                   
+  new StarField(canvas)
+</script>

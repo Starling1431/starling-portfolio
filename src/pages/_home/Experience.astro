@@ -15,8 +15,8 @@ const normalizeTitle = title
 ---
 
 <section id={normalizeTitle} class="experience">
-  <h2>{title}</h2>
-  <section class="jobs">
+  <h2 data-aos="fade-up">{title}</h2>
+  <section class="jobs" data-aos="fade-up" data-aos-delay="100">
     <div class="job-title">
       {
         jobsTitle.map((title, index) => (
@@ -27,6 +27,8 @@ const normalizeTitle = title
                 active: index === 0
               }
             ]}
+            data-aos="fade-right"
+            data-aos-delay={150 + index * 50}
           >
             {title}
           </button>

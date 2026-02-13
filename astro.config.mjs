@@ -1,9 +1,8 @@
 import { defineConfig } from 'astro/config'
 import { URL } from './src/data/constants'
-
 import tunnel from 'astro-tunnel'
 import icon from 'astro-icon'
-import image from '@astrojs/image'
+// ❌ QUITAR: import image from '@astrojs/image'
 import i18n from '@astrolicious/i18n'
 import sitemap from 'astro-sitemap'
 import playformCompress from '@playform/compress'
@@ -20,8 +19,12 @@ export default defineConfig({
     defaultStrategy: 'viewport'
   },
   compressHTML: false,
-
-  // ✅ CORREGIDO: Quitar el alias de i18n:astro
+  // ✅ AÑADIR configuración de imágenes nativa
+  image: {
+    service: {
+      entrypoint: 'astro/assets/services/sharp'
+    }
+  },
   vite: {
     resolve: {
       alias: {
@@ -35,11 +38,10 @@ export default defineConfig({
       }
     }
   },
-
   integrations: [
     tunnel(),
     icon(),
-    image(),
+    // ❌ QUITAR: image(),
     i18n({
       defaultLocale: 'es',
       locales: ['es', 'en']

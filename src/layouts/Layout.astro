@@ -7,12 +7,11 @@ import Favicons from '@components/Favicons.astro'
 import Footer from '@components/Footer.astro'
 import Navbar from '@components/Navbar.astro'
 import Social from '@components/Social.astro'
-//import Dither from '@scripts/Dither';
-//import FaultyTerminal from '@scripts/FaultyTerminal';
 import 'sanitize.css'
 import 'sanitize.css/assets.css'
 import 'sanitize.css/typography.css'
 import '@styles/global.css'
+import 'aos/dist/aos.css'
 
 interface Options {
   title: string
@@ -163,7 +162,6 @@ const { title, description, metaRobots } = options
     <slot name="social-media" />
   </head>
   <body>
-
     <Navbar />
 
     <slot />
@@ -172,5 +170,24 @@ const { title, description, metaRobots } = options
 
     <Social />
     <slot name="dynamic-components" />
+
+    <!-- ✅ AÑADIR ESTE SCRIPT AL FINAL DEL BODY -->
+    <script>
+      import AOS from 'aos'
+
+      // Inicializar AOS
+      AOS.init({
+        duration: 800,
+        easing: 'ease-out-cubic',
+        once: true,
+        offset: 120,
+        delay: 0
+      })
+
+      // Refrescar AOS en navegación (para compatibilidad con View Transitions)
+      document.addEventListener('astro:page-load', () => {
+        AOS.refresh()
+      })
+    </script>
   </body>
 </html>

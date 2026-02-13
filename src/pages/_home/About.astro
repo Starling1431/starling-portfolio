@@ -1,7 +1,7 @@
 ---
-import Starling from '@images/Starling.jpg'
 import { Picture } from 'astro:assets'
 import { t } from 'i18n:astro'
+import Starling from 'src/images/Starling.jpg'
 
 const { title, subtitle, description } = t('about', {
   returnObjects: true
@@ -15,9 +15,9 @@ const normalizeTitle = title
 ---
 
 <section id={normalizeTitle} class="about">
-  <h2>{title}</h2>
-  <section class="info">
-    <div class="picture">
+  <h2 data-aos="fade-up">{title}</h2>
+  <section class="info" data-aos="fade-up" data-aos-delay="100">
+    <div class="picture" data-aos="zoom-in" data-aos-delay="200">
       <Picture
         src={Starling}
         alt="Starling"
@@ -27,9 +27,9 @@ const normalizeTitle = title
         fallbackFormat="webp"
       />
     </div>
-    <div class="description">
-      <h3 class="headline-2" set:html={subtitle}></h3>
-      <p>{description}</p>
+    <div class="description" data-aos="fade-left" data-aos-delay="300">
+      <h3 class="headline-2" set:html={subtitle} />
+      <p data-aos="fade-up" data-aos-delay="400">{description}</p>
     </div>
   </section>
 </section>
