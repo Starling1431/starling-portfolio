@@ -1,0 +1,106 @@
+---
+import { Icon } from 'astro-icon/components'
+import { t } from 'i18n:astro'
+import '@styles/tech-colors.css'
+
+const { title, items } = t('common:skills', {
+  returnObjects: true
+})
+
+const iconMap: Record<string, string> = {
+  HTML5: 'html',
+  CSS3: 'css',
+  'JavaScript ES6+': 'javascript',
+  'C#': 'csharp',
+  'C++': 'cplusplus',
+  'Node.js': 'nodejs',
+  React: 'react',
+  'React Native': 'react',
+  MySQL: 'mysql',
+  Unity: 'unity',
+  GODOT: 'godot-svgrepo-com',
+  Astro: 'astro'
+}
+---
+
+<section id="habilidades" class="skills">
+  <h2 data-aos="fade-up">{title}</h2>
+  <div class="skills-grid" data-aos="fade-up" data-aos-delay="100">
+    {
+      items.map((skill: string) => {
+        const iconName =
+          iconMap[skill] ||
+          skill
+            .toLowerCase()
+            .replaceAll(' ', '-')
+            .replace('#', '-sharp')
+            .replace(/\+/g, 'plus')
+            .replace(/\./g, '')
+
+        return (
+          <div class="skill-item" title={skill}>
+            <Icon name={`techs/${iconName}`} size={120} class="skill-icon" />
+          </div>
+        )
+      })
+    }
+  </div>
+</section>
+
+<style>
+  .skills {
+    padding-bottom: 120px;
+
+    & h2 {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      align-items: center;
+      white-space: nowrap;
+      margin-bottom: 48px;
+
+      @media (width >= 768px) {
+        justify-content: start;
+
+        &::after {
+          content: '';
+          display: block;
+          width: 100%;
+          height: 1px;
+          background-color: var(--border-color);
+        }
+      }
+    }
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px 32px; /* Mayor espacio vertical */
+    justify-items: center;
+
+    @media (width >= 600px) {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 120px 48px;
+    }
+  }
+
+  .skill-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease;
+    color: var(--text-color);
+
+    @media (any-hover: hover) {
+      &:hover {
+        transform: translateY(-12px) scale(1.15);
+      }
+    }
+  }
+
+  .skill-icon {
+    /* Set a fallback color in case the tech CSS doesn't handle this specific tech yet */
+    color: var(--text-color);
+  }
+</style>

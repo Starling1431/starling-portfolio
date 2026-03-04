@@ -41,7 +41,10 @@
           "title": "Desarrollador de Programas de escritorio",
           "time": ["2023", "2024"],
           "description": "Aqui empece a desarrollar programas de escritorio con Unity, Visual Studio 2022, GODOT y MySQL, lo que me convirtió en un Aspirante apasionado y altamente cualificado para cualquier proyecto de desarrollo web.",
-           "list": ["Desarrollo de programas de escritorio", "Optimización de programas de escritorio"]
+          "list": [
+            "Desarrollo de programas de escritorio",
+            "Optimización de programas de escritorio"
+          ]
         }
       ]
     }
@@ -50,24 +53,24 @@
     "title": "Proyectos",
     "projects": [
       {
-        "title": "Estelí Buses",
-        "description": "La primer plataforma para conocer los horarios de las terminales de autobuses interlocales del municipio de Estelí, Nicaragua.",
+        "title": "ElectroStock",
+        "description": "Sistema de inventario creado con Visual Studio 2022, utilizando como base de datos SQL Server.",
         "image": "/src/images/projects/esteli-buses-project.jpg",
-        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
+        "techs": ["CSharp", "MySQL"],
         "code": "Código",
         "preview": "Vista previa"
       },
       {
-        "title": "Portafolio UX Ana Rangel",
-        "description": "Lorem ipsum dolor sit amet consectetur. Faucibus quis sociis at sagittis egestas sed volutpat. Arcu pellentesque elit volutpat quam. Id dictum sagittis hendrerit diam viverra velit. Blandit id viverra quis lectus faucibus egestas ipsum turpis.",
+        "title": "4RUNNERS",
+        "description": "Videojuego con entorno en linea elaborado con HTML5 (HTML, CSS, JS) con sistema de multijugador en linea y sistema de guardados.",
         "image": "/src/images/projects/ana-rangel-portafolio.jpg",
-        "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
+        "techs": ["HTML", "CSS", "JavaScript"],
         "code": "Código",
         "preview": "Vista previa"
       },
       {
-        "title": "Calculadora Payoneer Nicaragua",
-        "description": "Descubre una herramienta esencial para freelancers y negocios en Nicaragua. Nuestra Calculadora Payoneer Nicaragua te permite calcular de manera precisa y rápida las tarifas y comisiones al recibir pagos internacionales a través de Payoneer. ¡Empieza a usarla hoy y toma el control de tus finanzas!",
+        "title": "SUPERSNAKE",
+        "description": "VideoJuego elaborado con la aplicacion TIC80. Desarrollado con el lenguaje LUA, esta basado principalmente en el juego clasico Snake, en el cual consiste en que una serpiente quiere comer manzanas pero con varios agregados.",
         "image": "/src/images/projects/calculadora-payoneer-project.jpg",
         "techs": [
           "Astro",
@@ -117,11 +120,27 @@
       }
     ]
   },
- "about": {
-  "title": "Sobre mí",
+  "about": {
+    "title": "Sobre mí",
     "subtitle": "Soy Integrante de <a href='https://brackix.com' target='_blank' style='color: #f97316; text-decoration: underline; font-weight: 600;' onmouseover=\"this.style.color='#fb923c'; this.style.textDecoration='none';\" onmouseout=\"this.style.color='#f97316'; this.style.textDecoration='underline';\">Brackix</a> por parte del Frontend, Acompañandolos desde su creaciòn",
-  "description": "Soy un Desarrollador Web Frontend con más de 2 años de experiencia, especializado en crear diseños modernos y optimizar el rendimiento web, con un enfoque en tecnologías como HTML 5, CSS 3, JavaScript. Manejo frameworks como React Native y un poco de Angular, Next y Vite, y he manejado tambien con software de escritorio como Unity, Visual Studio 2022, GODOT y MySQL, lo que me convierte en un Aspirante apasionado y altamente cualificado para cualquier proyecto de desarrollo web."
-},
+    "description": "Soy un Desarrollador Web Frontend con más de 2 años de experiencia, especializado en crear diseños modernos y optimizar el rendimiento web, con un enfoque en tecnologías como HTML 5, CSS 3, JavaScript. Manejo frameworks como React Native y un poco de Angular, Next y Vite, y he manejado tambien con software de escritorio como Unity, Visual Studio 2022, GODOT y MySQL, lo que me convierte en un Aspirante apasionado y altamente cualificado para cualquier proyecto de desarrollo web."
+  },
+  "skills": {
+    "title": "Habilidades y Tecnologías",
+    "items": [
+      "HTML5",
+      "CSS3",
+      "JavaScript ES6+",
+      "C#",
+      "C++",
+      "Node.js",
+      "React",
+      "MySQL",
+      "Unity",
+      "GODOT",
+      "Astro"
+    ]
+  },
   "contact": {
     "title": "¿Listo para dar vida a tus ideas?",
     "subtitle": "Puedo impulsar tu proyecto o formar parte de tu equipo"

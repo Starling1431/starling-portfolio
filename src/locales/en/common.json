@@ -41,7 +41,10 @@
           "title": "Desktop Application Developer",
           "time": ["2023", "2024"],
           "description": "Here I started developing desktop applications with Unity, Visual Studio 2022, GODOT and MySQL, which made me a passionate and highly qualified aspiring developer for any web development project.",
-          "list": ["Desktop application development", "Desktop application optimization"]
+          "list": [
+            "Desktop application development",
+            "Desktop application optimization"
+          ]
         }
       ]
     }
@@ -121,6 +124,22 @@
     "title": "About me",
     "subtitle": "I'm a member of <a href='https://brackix.com' target='_blank' style='color: #f97316; text-decoration: underline; font-weight: 600;' onmouseover=\"this.style.color='#fb923c'; this.style.textDecoration='none';\" onmouseout=\"this.style.color='#f97316'; this.style.textDecoration='underline';\">Brackix</a> on the Frontend team, accompanying them since its creation",
     "description": "I'm a Frontend Web Developer with over 2 years of experience, specialized in creating modern designs and optimizing web performance, with a focus on technologies such as HTML 5, CSS 3, JavaScript. I handle frameworks like React Native and a bit of Angular, Next and Vite, and I've also worked with desktop software like Unity, Visual Studio 2022, GODOT and MySQL, which makes me a passionate and highly qualified aspiring developer for any web development project."
+  },
+  "skills": {
+    "title": "Skills and Technologies",
+    "items": [
+      "HTML5",
+      "CSS3",
+      "JavaScript ES6+",
+      "C#",
+      "C++",
+      "Node.js",
+      "React",
+      "MySQL",
+      "Unity",
+      "GODOT",
+      "Astro"
+    ]
   },
   "contact": {
     "title": "Ready to bring your ideas to life?",
