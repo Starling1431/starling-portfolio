@@ -55,7 +55,7 @@
       {
         "title": "ElectroStock",
         "description": "Sistema de inventario creado con Visual Studio 2022, utilizando como base de datos SQL Server.",
-        "image": "/src/images/projects/esteli-buses-project.jpg",
+        "image": "/src/images/projects/ElectroStock.png",
         "techs": ["CSharp", "MySQL"],
         "code": "Código",
         "preview": "Vista previa"
@@ -63,7 +63,7 @@
       {
         "title": "4RUNNERS",
         "description": "Videojuego con entorno en linea elaborado con HTML5 (HTML, CSS, JS) con sistema de multijugador en linea y sistema de guardados.",
-        "image": "/src/images/projects/ana-rangel-portafolio.jpg",
+        "image": "/src/images/projects/4runners.png",
         "techs": ["HTML", "CSS", "JavaScript"],
         "code": "Código",
         "preview": "Vista previa"
@@ -71,15 +71,8 @@
       {
         "title": "SUPERSNAKE",
         "description": "VideoJuego elaborado con la aplicacion TIC80. Desarrollado con el lenguaje LUA, esta basado principalmente en el juego clasico Snake, en el cual consiste en que una serpiente quiere comer manzanas pero con varios agregados.",
-        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
-        "techs": [
-          "Astro",
-          "TailwindCSS",
-          "React",
-          "TypeScript",
-          "PWA",
-          "Firebase"
-        ],
+        "image": "/src/images/projects/SuperSnake.png",
+        "techs": ["Lua"],
         "code": "Código",
         "preview": "Vista previa"
       }
@@ -89,10 +82,10 @@
     "title": "Contribuciones",
     "contributions": [
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
+        "src": "/src/images/contributions/MontaoRD.png",
+        "alt": "Montao RD",
+        "title": "MontaoRD",
+        "description": "Aplicacion que facilita la utilizacion de los servicios de transporte de la Republica Dominicana mediante la aplicacion movil que maneja Recargas instantaneas y Mapas interactivos.",
         "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
         "repo": "#",
         "repo_label": "Repositorio",
@@ -138,7 +131,8 @@
       "MySQL",
       "Unity",
       "GODOT",
-      "Astro"
+      "Astro",
+      "Lua"
     ]
   },
   "contact": {
