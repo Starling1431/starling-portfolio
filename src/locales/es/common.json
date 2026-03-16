@@ -86,7 +86,7 @@
         "alt": "Montao RD",
         "title": "MontaoRD",
         "description": "Aplicacion que facilita la utilizacion de los servicios de transporte de la Republica Dominicana mediante la aplicacion movil que maneja Recargas instantaneas y Mapas interactivos.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
+        "techs": ["React", "NodeJS", "Vite", "PHP", "WordPress"],
         "repo": "#",
         "repo_label": "Repositorio",
         "commits": "#"
